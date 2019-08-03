@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{5C32D4E4-8989-498C-B0C1-49EFA8ECF7FF}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>E:\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>E:\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKBin.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKBinL.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKBinTObj.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKBinXCAF.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKBO.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKBool.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKBRep.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKCAF.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKCDF.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKD3DHost.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKDCAF.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKDFBrowser.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKDraw.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKernel.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKFeat.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKFillet.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKG2d.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKG3d.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKGeomAlgo.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKGeomBase.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKHLR.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKIGES.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKIVtk.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKIVtkDraw.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKLCAF.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKMath.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKMesh.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKMeshVS.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKOffset.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKOpenGl.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKPrim.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKQADraw.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKService.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKShapeView.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKShHealing.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKStd.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKStdL.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKSTEP.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKSTEP209.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKSTEPAttr.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKSTEPBase.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKSTL.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKTInspector.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKTInspectorAPI.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKTObj.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKTObjDRAW.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKToolsDraw.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKTopAlgo.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKTopTest.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKTreeModel.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKV3d.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKVCAF.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKView.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKViewerTest.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKVInspector.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKVRML.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKXCAF.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKXDEDRAW.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKXDEIGES.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKXDESTEP.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKXMesh.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKXml.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKXmlL.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKXmlTObj.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKXmlXCAF.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKXSBase.lib" />
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKXSDRAW.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

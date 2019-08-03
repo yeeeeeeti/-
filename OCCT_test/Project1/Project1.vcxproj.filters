@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKBin.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKBinL.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKBinTObj.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKBinXCAF.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKBO.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKBool.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKBRep.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKCAF.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKCDF.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKD3DHost.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKDCAF.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKDFBrowser.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKDraw.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKernel.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKFeat.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKFillet.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKG2d.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKG3d.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKGeomAlgo.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKGeomBase.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKHLR.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKIGES.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKIVtk.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKIVtkDraw.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKLCAF.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKMath.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKMesh.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKMeshVS.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKOffset.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKOpenGl.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKPrim.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKQADraw.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKService.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKShapeView.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKShHealing.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKStd.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKStdL.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKSTEP.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKSTEP209.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKSTEPAttr.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKSTEPBase.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKSTL.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKTInspector.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKTInspectorAPI.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKTObj.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKTObjDRAW.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKToolsDraw.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKTopAlgo.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKTopTest.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKTreeModel.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKV3d.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKVCAF.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKView.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKViewerTest.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKVInspector.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKVRML.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKXCAF.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKXDEDRAW.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKXDEIGES.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKXDESTEP.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKXMesh.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKXml.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKXmlL.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKXmlTObj.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKXmlXCAF.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKXSBase.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\OpenCASCADE-7.3.0-vc14-64\opencascade-7.3.0\win64\vc14\lib\TKXSDRAW.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
